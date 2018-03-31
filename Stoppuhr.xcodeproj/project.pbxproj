@@ -12,6 +12,8 @@
 		43CB3A4C206ED947004BA29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CB3A4A206ED947004BA29A /* Main.storyboard */; };
 		43CB3A4E206ED947004BA29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CB3A4D206ED947004BA29A /* Assets.xcassets */; };
 		43CB3A51206ED947004BA29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CB3A4F206ED947004BA29A /* LaunchScreen.storyboard */; };
+		43CB3A5B206EE6D8004BA29A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CB3A5A206EE6D8004BA29A /* RoundedButton.swift */; };
+		43CB3A5D206FC2D5004BA29A /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CB3A5C206FC2D5004BA29A /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		43CB3A4D206ED947004BA29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43CB3A50206ED947004BA29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43CB3A52206ED947004BA29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CB3A5A206EE6D8004BA29A /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		43CB3A5C206FC2D5004BA29A /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				43CB3A4D206ED947004BA29A /* Assets.xcassets */,
 				43CB3A4F206ED947004BA29A /* LaunchScreen.storyboard */,
 				43CB3A52206ED947004BA29A /* Info.plist */,
+				43CB3A5A206EE6D8004BA29A /* RoundedButton.swift */,
+				43CB3A5C206FC2D5004BA29A /* Stopwatch.swift */,
 			);
 			path = Stoppuhr;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				43CB3A49206ED947004BA29A /* ViewController.swift in Sources */,
+				43CB3A5B206EE6D8004BA29A /* RoundedButton.swift in Sources */,
 				43CB3A47206ED947004BA29A /* AppDelegate.swift in Sources */,
+				43CB3A5D206FC2D5004BA29A /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFHGR93LDE;
 				INFOPLIST_FILE = Stoppuhr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NiklasR.Stoppuhr;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFHGR93LDE;
 				INFOPLIST_FILE = Stoppuhr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NiklasR.Stoppuhr;
